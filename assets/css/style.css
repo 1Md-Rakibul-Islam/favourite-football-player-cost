@@ -27,13 +27,10 @@ li {
 /* === comon css end===*/
 /* Header css start*/
 #main-header {
-    width: 100vw;
-    height: 65vh;
     background: linear-gradient(to right, #1e1e5e, #451455);
 }
 
 #header-text {
-    width: 60vw;
     color: aliceblue;
     line-height: 1.8;
     text-align: center;

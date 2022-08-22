@@ -1,18 +1,19 @@
 let playersArray = []
 
+// player add in a array
 function addToCart(element) {
     const PlayerName = element.parentNode.children[0].innerText
     if (playersArray.length !== 5) {
-       playersArray.push(PlayerName) 
+        playersArray.push(PlayerName)
+        element.setAttribute('disabled', true)
     }
     else {
-        return
+        return alert('you can max 5 player selected.')
     }
     playersDisplay(playersArray)
-
 }
 
-
+// Player list creat on button click
 function playersDisplay(players) {
     const playersListElement = document.getElementById('playerListUl')
     playersListElement.innerHTML = ''
@@ -24,5 +25,5 @@ function playersDisplay(players) {
         <li id="player-name" class="list-group-item m-2 text-white"><span id="player-number">${i + 1}. </span> ${playerName}</li>
     `
     playersListElement.appendChild(playerList)
-}
+    }
 }

@@ -10,10 +10,9 @@ document.getElementById('btn-player-buget-calculate').addEventListener('click', 
 
     // set the value in Player Expenses total
     setTextElementValueById('total-player-budget', playerBugetTotal)
-    
 })
 
-// total budget manager and coach.
+// total budget manager and coach.`
 
 document.getElementById('btn-calculate-total').addEventListener('click', function(){
     // player cost value
