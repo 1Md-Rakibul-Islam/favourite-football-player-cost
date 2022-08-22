@@ -1,0 +1,47 @@
+/* === comon css start ===*/
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    background: transparent !important;
+    color: whitesmoke;
+}
+
+#header-title {
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+    color: indianred;
+}
+
+/* === comon css end===*/
+/* Header css start*/
+#main-header {
+    width: 100vw;
+    height: 65vh;
+    background: linear-gradient(to right, #1e1e5e, #451455);
+}
+
+#header-text {
+    width: 60vw;
+    color: aliceblue;
+    line-height: 1.8;
+    text-align: center;
+}
+/*header css end*/
+
+/*player css start*/
+
+
+
+
