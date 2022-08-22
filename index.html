@@ -29,10 +29,6 @@
                                 The first known examples of a team game involving a ball, which was made out of a rock, occurred in old Mesoamerican cultures for over 3,000 years ago. It was by the Aztecs called Tchatali, although various versions of the game were spread over large regions. In some ritual occasions, the ball would symbolize the sun and the captain of the losing team would be sacrificed to the gods. A unique feature of the Mesoamerican ball game versions was a bouncing ball made of rubber – no other early culture had access to rubber.
                             </p>
                         </div>
-                        
-                    <!-- <div class="col-4 col-lg-5 col-md-12 col-sm-12 col-xs-12">
-                        <img src="assets/images/goal-boll.png" alt="" srcset="">
-                    </div> -->
                     </div>
                 </div>
 
@@ -40,6 +36,114 @@
         </div>
     </header>
     <!-- === end hrader === -->
+    <section id="allPlayersSection">
+        <div class="container">
+            <div class="playerTitle p-4">
+                <h1 class="text-center text-white">All Players</h1>
+            </div>
+            <!-- === title === -->
+            <div class="row">
+                <div class="col-md-12 col-8 col-lg-8 col-sm-12">
+                    <div class="row gap-2">
+                        <div class="col">
+                            <div class="card" style="width: 16rem;">
+                                <img src="assets/images/player-1.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 id="player-name" class="card-title">Lionel Messi</h5>
+                                    <p class="card-text text-secondary">36 Goals<span class="fw-bold">.</span> 120 Assist</p>
+                                    <button onclick="addToCart(this)"  href="#" class="btn btn-info">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 16rem;">
+                                <img src="assets/images/player-2.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 id="player-name" class="card-title">Neymar Jr</h5>
+                                    <p class="card-text text-secondary">36 Goals<span class="fw-bold">.</span> 120 Assist</p>
+                                    <button onclick="addToCart(this)"  href="#" class="btn btn-info">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 16rem;">
+                                <img src="assets/images/player-3.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 id="player-name" class="card-title">Kylian Mbappé</h5>
+                                    <p class="card-text text-secondary">36 Goals<span class="fw-bold">.</span> 120 Assist</p>
+                                    <button onclick="addToCart(this)"  href="#" class="btn btn-info">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 16rem;">
+                                <img src="assets/images/player-4.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 id="player-name" class="card-title">Vítor Machado</h5>
+                                    <p class="card-text text-secondary">36 Goals<span class="fw-bold">.</span> 120 Assist</p>
+                                    <button onclick="addToCart(this)"  href="#" class="btn btn-info">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 16rem;">
+                                <img src="assets/images/player-5.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 id="player-name" class="card-title">Sergio Ramos</h5>
+                                    <p class="card-text text-secondary">36 Goals<span class="fw-bold">.</span> 120 Assist</p>
+                                    <button onclick="addToCart(this)"  href="#" class="btn btn-info">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card" style="width: 16rem;">
+                                <img src="assets/images/player-6.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 id="player-name" class="card-title">Mintu Kha</h5>
+                                    <p class="card-text text-secondary">36 Goals<span class="fw-bold">.</span> 120 Assist</p>
+                                    <button onclick="addToCart(this)"  href="#" class="btn btn-info">SELECT</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12 col-8 col-lg-4 col-sm-12">
+                    <div class="selectedPlayer">
+                        <div class="card bg-transparent shadow p-3 " style="width: 20rem;">
+                            <h3 class="card-title text-center text-white">Selected Players</h3>
+                            <ul class="list-group bg-transparent list-group-flush" id="playerListUl">
+                                <!-- button click and added -->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="playerAllCalucation mt-5 pb-5">
+                        <div class="card bg-transparent shadow p-4" style="width: 20rem;">
+                            <h3 class="text-center text-white p-3">Budget</h3>
+                            <div class="input-group mb-2">
+                                <span class="input-group-text">Per Player</span>
+                                <input type="number" aria-label="First name" class="form-control" id="perPlayerInput">
+                            </div>
+                            <button type="button" class="btn btn-info btn-lg" id="calculateBtn">Calculate</button>
+                            <h5 class="text-center text-white p-3">Player Expenses $ <span id="totalExpence">000</span>
+                            </h5>
+                            <div class="input-group mb-2">
+                                <span class="input-group-text">Manager</span>
+                                <input type="number" aria-label="First name" class="form-control" id="managerInput">
+                            </div>
+                            <div class="input-group mb-2">
+                                <span class="input-group-text">Coach</span>
+                                <input type="number" aria-label="First name" class="form-control" id="coachInput">
+                            </div>
+                            <button type="button" class="btn btn-info btn-lg" id="totalCalculateBtn">Calculate
+                                Total</button>
+                            <h5 class="text-center text-white p-3">Total : $ <span id="totalCost">000</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
 
 
 
