@@ -8,7 +8,7 @@ function addToCart(element) {
         element.setAttribute('disabled', true)
     }
     else {
-        return alert('you can max 5 player selected.')
+        return alert('You cannot select more then 5 players.')
     }
     playersDisplay(playersArray)
 }
